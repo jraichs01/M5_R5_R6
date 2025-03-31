@@ -2,15 +2,18 @@ package com.damdaw;
 
 public class Automobil {
 
-    String marca; 
+    private String marca; 
     private String model; 
-    String matricula; 
+    private String matricula; 
+
+    public static int comptador = 0;
    
     // Constructor amb tots els atributs
     Automobil(String marca, String model, String matricula) {
         this.marca = marca;
         this.model = model;
         this.matricula = matricula;
+        comptador ++;
     }
 
     // Constructor buit

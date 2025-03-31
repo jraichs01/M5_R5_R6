@@ -2,9 +2,9 @@ package com.damdaw;
 
 public class Automobil {
 
-    String marca; // Marca es public perque es pot modificar des de fora de la classe
-    private String model; // Model es public perque es pot modificar des de fora de la classe
-    String matricula; // Matricula es public perque es pot modificar des de fora de la classe
+    String marca; 
+    private String model; 
+    String matricula; 
    
     // Constructor amb tots els atributs
     Automobil(String marca, String model, String matricula) {

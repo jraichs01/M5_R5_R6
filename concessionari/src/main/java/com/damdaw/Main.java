@@ -16,10 +16,6 @@ public class Main {
         automo.marca = "BMW";
         // Mostrar les dades de l'automòbil
         System.out.println(automo.mostrarDades());
-        // Validar matrícules
-        System.out.println(Automobil.validarMatricula("1234ABC")); // True
-        System.out.println(Automobil.validarMatricula("123ABC"));  // False
-        System.out.println(Automobil.validarMatricula("1234abc")); // False
-        System.out.println(Automobil.validarMatricula("1234ABCD")); // False
+       
     }
 }

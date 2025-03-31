@@ -2,9 +2,9 @@ package com.damdaw;
 
 public class Automobil {
 
-    public String marca; // Marca es public perque es pot modificar des de fora de la classe
-    public String model; // Model es public perque es pot modificar des de fora de la classe
-    public String matricula; // Matricula es public perque es pot modificar des de fora de la classe
+    String marca; // Marca es public perque es pot modificar des de fora de la classe
+    private String model; // Model es public perque es pot modificar des de fora de la classe
+    String matricula; // Matricula es public perque es pot modificar des de fora de la classe
    
     // Constructor amb tots els atributs
     Automobil(String marca, String model, String matricula) {
@@ -12,6 +12,33 @@ public class Automobil {
         this.model = model;
         this.matricula = matricula;
     }
+
+    // Constructor buit
+    Automobil(){}
+    
+    // Setters i Getters
+    public String getMarca() {
+        return marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }   
+    public String getMatricula() {
+        return matricula;
+    }
+    public void setMatricula(String matricula) {
+        this.matricula = matricula;
+    }
+
 
     // Mètode per mostrar la informació de l'automòbil
     public String mostrarDades() {

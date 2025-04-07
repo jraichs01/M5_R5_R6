@@ -1,11 +1,11 @@
-<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>60</x><y>0</y><w>420</w><h>250</h></coordinates><panel_attributes>Automobil
+<diagram program="umletino" version="15.1"><zoom_level>15</zoom_level><element><id>UMLClass</id><coordinates><x>30</x><y>0</y><w>630</w><h>375</h></coordinates><panel_attributes>Automobil
 --
 - marca: String   
 - model: String   
 - matricula: String 
-__+ comptador : int__
+__+ numAuto: int__
 --
-+ Automobil()                                      |
++ Automobil()                                      
 + Automobil(in marca: String, in model: String, in matricula: String) 
 + getMarca(): String                               
 + setMarca(in marca: String): void                   
@@ -15,8 +15,8 @@ __+ comptador : int__
 + setMatricula(in matricula: String): void           
 + mostrarDades(): String                          
 __+ validarMatricula(in matricula: String): boolean__
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>120</x><y>240</y><w>110</w><h>140</h></coordinates><panel_attributes>lt=&lt;.
-&lt;&lt;Automobil&gt;&gt;</panel_attributes><additional_attributes>40;10;10;120</additional_attributes></element><element><id>UMLClass</id><coordinates><x>40</x><y>360</y><w>210</w><h>70</h></coordinates><panel_attributes>Auto: Automobil
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>150</x><y>360</y><w>150</w><h>210</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;Automobil&gt;&gt;</panel_attributes><additional_attributes>20;10;10;120</additional_attributes></element><element><id>UMLClass</id><coordinates><x>30</x><y>540</y><w>315</w><h>105</h></coordinates><panel_attributes>Auto: Automobil
 --
 marca : String = "BMW"
 model : String ="X3"

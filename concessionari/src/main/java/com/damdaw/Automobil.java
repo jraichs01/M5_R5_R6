@@ -6,18 +6,18 @@ public class Automobil {
     private String model; 
     private String matricula; 
 
-    public static int comptador = 0;
+    public static int numAuto = 0;
    
     // Constructor amb tots els atributs
     Automobil(String marca, String model, String matricula) {
         this.marca = marca;
         this.model = model;
         this.matricula = matricula;
-        comptador ++;
+        numAuto ++;
     }
 
-    // Constructor buit
-    Automobil(){}
+    // Constructor buit incrementa el número d'automòbils creats
+    Automobil(){ numAuto ++; }
     
     // Setters i Getters
     public String getMarca() {
